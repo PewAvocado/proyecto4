@@ -3,12 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    
+    <div id="padre">
+        <div id="fondo">
+            
+        </div>
+        <div id="formulario">
+            This is just a test of a real online service, is not real at all! Hope you find the design interesting!
+             
+            <form action="" id="formita">
+                <div class="hijo-1">
+                    <label for="name">First name:</label>
+                    <input type="text" name="name" id="name" required >
+                    <label for="correo">Email:</label>
+                    <input type="email" name="correo" id="correo" required>
+                    <label for="clave">Password:</label>
+                    <input type="password" name="clave" id="clave" required minlength="8">
+                </div>
+                <div class="hijo-2">
+                    <label for="apellido">Last name:</label>
+                    <input type="text" name="apellido" id="apellido">
+                    <label for="telefono">Phone number:</label>
+                    <input type="tel" name="telefono" id="telefono">
+                    <label for="clave2">Confirm password:</label>
+                    <input type="password" name="clave2" id="clave2">
+                </div>
+                <div>
+                <button type="submit">Create account</button>
+                </div>
+            </form>
+            
+        </div>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>
